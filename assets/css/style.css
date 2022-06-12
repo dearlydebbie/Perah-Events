@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Montserrat:wght@400;500&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--main-color: #e6c2bf;
+	--sec-color: #fad02c;
+	--font-color-dark: #282120;
+	--font-color-light: #f8efe4;
+	--glass-main: rgba(230, 194, 191, 0.06);
+	--glass-outline: rgba(230, 194, 191, 0.25);
+	--backdrp-filter-blur: blur(8.9px);
+	--shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	--main-font: "Lobster Two", cursive;
+	--sec-font: "Montserrat", sans-serif;
+}
