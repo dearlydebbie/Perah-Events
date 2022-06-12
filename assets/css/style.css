@@ -112,9 +112,9 @@ li {
 	background: -webkit-linear-gradient(
 		top,
 		transparent 0,
-		var(--main-color) 100%
+		var(--font-color-dark) 100%
 	);
-	background: linear-gradient(to bottom, transparent 0, var(--main-color) 150%);
+	background: linear-gradient(to bottom, transparent 0, var(--font-color-dark) 150%);
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -408,5 +408,20 @@ ul li a {
 	font-size: 40px;
 }
 .home-arrow-down a .downScroll {
-	color: #fff;
+	color: var(--font-color-dark)
+}
+
+/*---------- Footer --------------*/
+
+.footer-area {
+	background: var(--font-color-dark);
+	padding: 20px 0px;
+}
+.single-footer h6 {
+	font-size: 16px;
+	color: var(--font-color-light);
+}
+.single-footer h6 a {
+	text-decoration: none;
+	color: var(--sec-color);
 }
