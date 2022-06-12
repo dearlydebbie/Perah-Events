@@ -80,7 +80,7 @@
 		line-height: 1.5em;
 	}
 
-	.ticket-form button.btn {
+	.ticket-form a.btn {
 		width: 15%;
 	}
 	.parallax {
@@ -89,7 +89,7 @@
 }
 
 @media screen and (min-width: 768px) {
-	.ticket-form button.btn {
+	.ticket-form a.btn {
 		width: 20%;
 	}
 }

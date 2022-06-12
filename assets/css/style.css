@@ -325,7 +325,7 @@ ul li a:hover {
 	outline: 0;
 	box-shadow: none;
 }
-.ticket-form button.btn {
+.ticket-form a.btn {
 	padding: 10px 10px;
 	color: var(--font-color-dark);
 	background-color: var(--font-color-light);
@@ -429,12 +429,13 @@ ul li a:hover {
 	color: var(--sec-color);
 }
 
+/*---------- QR Code --------------*/
 
 #placeHolder {  
 	display: none;  
 }
 canvas {
-	width:200px;  
+	width: 200px;  
 }
 #dBtn {
 	display: none;  
