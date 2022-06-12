@@ -428,3 +428,14 @@ ul li a:hover {
 	text-decoration: none;
 	color: var(--sec-color);
 }
+
+
+#placeHolder {  
+	display: none;  
+}
+canvas {
+	width:200px;  
+}
+#dBtn {
+	display: none;  
+}
