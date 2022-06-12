@@ -401,15 +401,12 @@ ul li a {
   animation-direction: normal, alternate;
 }
 .header-text .home-arrow-down {
-    text-align: center;
-    margin-top: 240px;
+	text-align: center;
+	margin-top: 240px;
 }
-
 .header-text .home-arrow-down .btn {
-    font-size: 40px;
+	font-size: 40px;
 }
-
-
 .home-arrow-down a .downScroll {
-    color: #fff;
+	color: #fff;
 }
