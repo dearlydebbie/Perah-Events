@@ -158,7 +158,9 @@ li {
 	position: fixed;
 	top: 0;
 	left: -250px;
-	background: var(--font-color-dark);
+	background: var(--glass-main);
+	border: var(--glass-outline);
+	backdrop-filter: var(--backdrp-filter-blur);
 	width: 250px;
 	height: 100%;
 	transition: .3s;
@@ -191,7 +193,7 @@ ul li a {
 	height: 50px;
 	box-sizing: border-box;
 	cursor: pointer;
-	background: var(--font-color-dark);
+	background: var(--glass-main);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -202,7 +204,7 @@ ul li a {
 .sidebarBtn span {
 	height: 2px;
   width: 24px;
-  background-color: var(--font-color-light);
+  background-color: var(--font-color-dark);
   position: relative;
   transition: background-color 0.3s ease;
 }
@@ -213,7 +215,7 @@ ul li a {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--font-color-light);
+  background-color: var(--font-color-dark);
   transition: all 0.3s ease;
 }
 .sidebarBtn span:before {
@@ -223,7 +225,7 @@ ul li a {
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: var(--font-color-light);
+	background: var(--font-color-dark);
 	transition: .3s;
 }
 .sidebarBtn span:after {
@@ -233,7 +235,7 @@ ul li a {
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: var(--font-color-light);
+	background: var(--font-color-dark);
 	transition: .3s;
 }
 .sidebarBtn.toggle span {
@@ -248,17 +250,35 @@ ul li a {
 	transform: rotate(-45deg);
 }
 .parallax {
-	background: linear-gradient(var(--main-color), var(--main-color)), url('../images/event2.jpg') no-repeat center;
+    background:linear-gradient(var(--main-color), rgba(0, 0, 0, 0.6)), url('../images/event2.jpg') no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 500px;
 }
 .boxed {
-	border: solid 2px var(--font-color-dark);
+	border: 1px solid var(--font-color-dark);
 	box-sizing: border-box;
 	padding: 10px 20px;
 	color: var(--font-color-dark);
 	text-align: center;
 	margin: 0px;
 	border-width: 5px;
+}
+
+/* ---------- About ------------ */
+#about {
+	color: var(--font-color-dark);
+}
+.about-text h2 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: var(--font-color-dark);
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+.about-text p {
+	font-family: var(--sec-font);
+	font-size: 1em;
 }
