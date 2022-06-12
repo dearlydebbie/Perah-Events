@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--sec-font);
+	font-family: var(--main-font);
 }
 a {
 	text-decoration: none;
@@ -79,7 +79,7 @@ li {
 	height: 40px;
 	width: 40px;
 	font-size: 14px;
-	color: var(--font-color-light);
+	color: var(--font-color-dark);
 	text-align: center;
 	position: fixed;
 	bottom: 30px;
@@ -91,7 +91,7 @@ li {
 	background: var(--main-color);
 }
 .scrollup:hover {
-	box-shadow: var(--shadow);
+	box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 	-webkit-transition: all 0.4s ease-out;
 	transition: all 0.4s ease-out;
 }
