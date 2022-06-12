@@ -182,11 +182,14 @@ ul li {
 }
 ul li a {
 	padding: 20px 20px;
-	color: var(--font-color-light);
+	color: var(--font-color-dark);
 	display: block;
 	text-decoration: none;
 	border-bottom: var(--glass-outline);
-	font-size: 30px;
+	font-size: 20px;
+}
+ul li a:hover {
+	color: var(--font-color-light);
 }
 .sidebarBtn {
 	position: absolute;

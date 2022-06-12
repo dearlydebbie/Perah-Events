@@ -3,6 +3,15 @@
 
 	jQuery(document).ready(function () {
 
+		/* ---------- Sidebar ----------- */
+
+		$(document).ready(function () {
+			$(".sidebarBtn").click(function () {
+				$(".sidebar").toggleClass("active");
+				$(".sidebarBtn").toggleClass("toggle");
+			});
+		});
+
 		/* ---------- Smooth Scroll Js ----------- */
 
 		$("a.smooth-scroll").on("click", function (e) {
@@ -19,6 +28,7 @@
 		});
 
 		/* -------- Scroll Up ---------- */
+    
 		$(window).on("scroll", function () {
 			if ($(this).scrollTop() > 250) {
 				$(".scrollup").fadeIn();
